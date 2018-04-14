@@ -105,11 +105,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "05ee76bc-33c1-4cbb-b46b-55e32da015da",
+						"id": "c1b6b30a-e29c-4ce3-b557-916e78bee606",
 						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
+							"    pm.response.to.have.status(400);",
 							"});"
 						]
 					}
@@ -139,11 +139,11 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "a975db47-4b0f-4c3a-b6b9-f54140f5bcd1",
+						"id": "3ef31bf9-73cc-4984-8bdf-e8d68f118140",
 						"type": "text/javascript",
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(400);",
+							"    pm.response.to.have.status(200);",
 							"});",
 							"",
 							"pm.test(\"Test form data\", function () {",
